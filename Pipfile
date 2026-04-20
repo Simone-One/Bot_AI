@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow-macos = "==2.13.0"
+tensorflow-metal = "==1.0.0"
+"discord.py" = "*"
+pillow = "*"
+numpy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.15"
